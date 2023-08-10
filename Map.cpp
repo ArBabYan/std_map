@@ -2,7 +2,7 @@
 #include <map>
 #include <string>
 
-// Global function to populate a map with country names and capitals
+
 void CountryMap(std::map<std::string, std::string>& countryMap) {
     countryMap.insert(std::make_pair("Armenia", "Yerevan"));
     countryMap.insert(std::make_pair("Australia", "Canberra")); 
